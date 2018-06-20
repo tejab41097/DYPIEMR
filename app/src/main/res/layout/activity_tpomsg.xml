@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miniproject.dypiemr.TpomsgActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tpo_s_message"
+        android:background="#67c8ff"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tpomsg" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Training and Placement office of Dr. D. Y. Patil Institute of Engineering, Management and Research, works as an integral part of our institute and is actively putting efforts to generate employment for the engineering graduates. Various training programs are conducted rigorously throughout the year to make sure that the students are industry ready and meet the set standards of the company.\n
+Many reputed industries visit our Institute on regular basis for campus recruitment process and we feel proud to share that our students gets absorbed by most of the leading giants of the industry. The Placement cell also has state of the art infrastructure for conducting the recruitment process. This makes the process easy for the corporate people as well as the students. The placement cell has adopted an effective communication system to keep the students informed and updated.\n
+Along with the job offerings, the placement cell also guides the students to opt for higher studies in different streams. Different guest lectures on career guidance are scheduled in every semester to make students aware of the various career opportunities so that they reach the highest possible level in the domain of their respective interest.\n
+To get better understanding about Entrepreneurship, the institute has formed an Industry - Institute Interaction cell, which actively helps the students by providing them the guidance from experts and sharing the success and failure stories of entrepreneurs. The cell also makes the students aware about the various entrepreneurship encouragement schemes declared by the state and central government.\n\n\n
+Prof. Sushant S. Pande\n
+Training and Placement Officer\n
+DYPIEMR\n
+Tel: - 08888870493\n
+Email: - tpo@dypiemr.ac.in\n"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</LinearLayout>
+</ScrollView>

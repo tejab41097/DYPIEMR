@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miniproject.dypiemr.MessageActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Founder's Message"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/founder" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="
+His Excellency Padmashree Dr. D. Y. Patil
+
+In the realm of education and healthcare in the state of Maharashtra, one name stands out like a shining beacon, that of Padmashree Dr. D.Y. Patil. His vision, dedication and passion have been indelibly influenced, by his wisdom and generosity and have left several benchmarks, be it in the schools for imparting basic education or institutes for higher learning. He has materialized his dreams under the umbrella of prestigious education institutes in Kolhapur, Navi Mumbai and Pune. Padmashree Dr. D. Y. Patil is the Governor of Tripura since 27th Nov 2009 and from 22nd March 2013 is the Governor of Bihar till date.
+
+He is pioneer in ushering an era of privatization of technical education in Maharashtra. He is a philanthropist, educationist and social worker and under his able guidance the Pratishthan has more than hundred academic institutes of international repute, from kindergarten to post graduation levels in various disciplines of education.
+
+His regard and respect for traditional values and openness to modern ideas, blended perfectly with his admirable personality. Humble and unassuming Dr. D.Y. Patil is better known for his work, rather than the awards and recognition he has received over the years. For his pioneering contribution in the field of education, he was honored with the title 'Padmashree' by the President of India. He is also awarded two Doctorates in philosophy, the first by The World University Round Table (USA) in 1985 and later by Britain (UK) in 1996."
+        android:textSize="17dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="President's Message"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/president" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="
+Hon. Dr. Sanjay D. Patil
+
+Dr. Sanjay D. Patil is an educationist, agriculturist and a Civil Engineer. He is the architect of Dr. D. Y. Patil Educational Institutions of Kolhapur academic complex. He holds positions of Chancellor of Dr. D. Y. Patil University and Chairman of Kasaba Bavada Shikshan Mandal, Kolhapur.
+
+He has to his credit various awards. The Government of Maharashtra has awarded him with “Vanashree Puraskar” in 1991. He is recipient of 'Indira Priyadarshini Vrukshamitra' award in 1993. He has been also awarded by “Kolhapur Bhushan” in 2001 for his achievement in educational field, Rashtriya Shikshan Sanman Puraskar”, “Krishinishtha Puraskar” awarded by Government of Maharahshtra in 2004 and he has won first prize in “All India Mango Show ” held at Banglore in 1996.
+
+    Dr. Sanjay D. Patil believes in nurturing the potential of the student, giving them exposure to the latest developments and enabling them to become competent and quality conscious engineers, the world class infrastructure and environment in the institutes reflects the meticulous care taken in maintaining high academicians and most ultra modern laboratories. His humane and calm approach towards addressing of problems and his quick decision making ability is responsible for the rapid progress and growth of the educational institutes.
+    "
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Principal's Message"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/principle" />
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Dr Anupama V Patil
+Principal
+
+I welcome you to Dr. D.Y. Patil Institute of Engineering, Management and Research, Akurdi, Pune, Maharashtra, India.
+
+The Institute is established under Prestigious Dr. D. Y. Patil Pratishthan, one of the pioneers of Education in Maharashtra. It is approved by All India Council of Technical Education and offers Bachelor of Engineering degree in Mechanical , Electronic and Telecommunication, Civil, Computer and Chemical Engineering.
+
+In view of the demands from Industry, service sector and Society, our Institute aims at providing conducive environment for Teaching- Learning, Character building and overall personality development of the student. We have well planned well structured academics along with co curricular and extracurricular activities for the students. State of the art infrastructure, well equipped class rooms, laboratories and experienced qualified faculty are the backbone of the Institute. The students are provided with well equipped Computer Center , Library and other amenities like Hostels, Playground, Gymkhana ,Amphi theatre etc.
+
+The Centralised Training and Placement Cell of Dr. D. Y. Patil Pratishthan assures placement to all eligible students in reputed Industries and organisations. Alongwith placements, this cell also organises Training sessions for Personality development, aptitude tests,interview techniques and communication skills.
+
+I assure all my students and parents the most creative and conducive environment required for transformation of a student into an all round Engineering Professional which will empower him to face the challenges of the Professional world.
+
+Mail id: principal@dypiemr.ac.in"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+</LinearLayout>
+</ScrollView>

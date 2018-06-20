@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miniproject.dypiemr.VisionActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/vision"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="To strive for excellence by providing quality technical education and facilitate research for the welfare of society.\n\n"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/mission"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="\n1.To educate students with strong fundamentals by providing conducive environment\n2.To inculcate research with creativity amd innovation.\n3.To promote industry-institute collaboration and prepare students for life long learning in context of technological change.\n4.To strengthen leadership, team-work, professional and communication skills and ethical standards\n\n"
+        android:textSize="17dp"
+        android:gravity="left"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/institute_objectives"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="\n1.To produce technically competent, quality conscious engineers.\n2.To develop functionally suitable and conducive environment for students and staff for academic purpose.\n3.To develop the departments into the centre of excellence.\n4.To develop post graduate centers for all branches.\n5.To implement Effective and Efficient Teaching–Learning practices.\n6.To increase percentage of campus placements.\n7.To strengthen industry institute interaction.\n8.Help students for personality development and career guidance.\n9.To develop the students and staff to get international Acclamation.\n10.To develop an e-learning campus."
+        android:textSize="17sp"
+        android:gravity="left"
+        android:textColor="#000000"/>
+</LinearLayout>
+</ScrollView>

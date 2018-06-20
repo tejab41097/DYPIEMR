@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.miniproject.dypiemr.GovernActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Governing Body"
+        android:textColor="#ffffff"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+1.Dr. Sanjay Patil , President\n
+    \n2.Mr. Satej Patil, Vice President and Chairman\n
+    \n3.Mrs. Pratima Patil, Trustee\n
+    \n4.Col S.K Joshi, Campus Director\n
+    \n5.Dr Anupama V Patil, Principal\n
+    \n6.Wg. Cdr. (Retd). P.V C. Patil, Secratery Dr.D Y Patil Prathishthan, Member\n
+    \n7.Shri. Shripad Dharangutti, Secretary Dr. D Y Patil Prathisthan, Member\n
+    \n8.Ex Officio AICTE – Western Regional Office Mumbai, Member AICTE Nominee\n
+    \n9.Ex Officio Technical Education Regional Office, Member D.T.E Nominee\n
+    \n10.Mr. Anil Kulkarni M.D M/S Pooja Casting Nigdi, Pune, Member Industry Nominee\n
+    \n11.Ex Officio University of Pune, Member University, Nominee
+"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+</LinearLayout>
+</ScrollView>

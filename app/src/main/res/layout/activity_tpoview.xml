@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miniproject.dypiemr.TpoviewActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tpo_overview"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/tpoview" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_training_and_placement_cell_of_our_college_primarily_focuses_on_grooming_the_students_to_make_them_job_ready_and_also_on_developing_their_inter_personal_and_intra_personal_skills_to_cope_up_with_current_scenario"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="The Training and Placement Cell is an integral part of this college. Training and
+         Placement activities are organized throughout the year with a view to prepare the prospective learners for the campus selection programs.
+          It is heartening to state that reputed industries across the country visit this college regularly for campus recruitment programs however
+          , cell maintains good rapport with all industries for effective recruitment. In order to enhance the employability quotient of the students as demanded by industry, the Training and Placement cell provides the much needed training to the students to hone their employability skills. These training programs give the students tips on how to crack aptitude, group discussion, interview skills and resume preparation. The cell also educates the students with career opportunities in different areas such as Public Sector, Armed forces and Government Sector services by conducting guest lecture regularly.The Training and Placement Cell is an integral part of this college. Training and Placement activities are organized throughout the year with a view to prepare the prospective learners for the campus selection programs. It is heartening to state that reputed industries across the country visit this college regularly for campus recruitment programs however, cell maintains good rapport with all industries for effective recruitment. In order to enhance the employability quotient of the students as demanded by industry, the Training and Placement cell provides the much needed training to the students to hone their employability skills. These training programs give the students tips on how to crack aptitude, group discussion, interview skills and resume preparation. The cell also educates the students with career opportunities in different areas such as Public Sector, Armed forces and Government Sector services by conducting guest lecture regularly." />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#67c8ff"
+        android:text="Objectives:-"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+    \nTo prepare and train aspiring learners to face campus recruitment by providing them exhaustive training with relevance to communication skills, aptitude test demeanor, comport and overall development for personal and professional grooming.
+    \nTo arrange guest lecture of industrial experts to update and upgrade learners with hands on experience in the wake of ever changing dimensions of professionalism.
+    \nTo arrange guest lecture of alumni who are placed in reputed industries to inspire and motivate the aspiring learners.
+    \nTo arrange guest lecture on diverse career paths such as Indian Army, Navy, Air FORCE, ONGC, NTPCL, UPSC, GATE and TOFEL etc.
+    \nTo make concerted and consistent efforts to enhance employability through campus placements."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+</LinearLayout>
+</ScrollView>

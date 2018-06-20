@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miniproject.dypiemr">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HOME">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".CourseActivity" />
+        <activity android:name=".TpActivity" />
+        <activity android:name=".FeeActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".InstiActivity" />
+        <activity android:name=".VisionActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".GovernActivity" />
+        <activity android:name=".DocActivity" />
+        <activity android:name=".DocFeeActivity" />
+        <activity android:name=".EntcActivity" />
+        <activity android:name=".CompActivity" />
+        <activity android:name=".MechActivity" />
+        <activity android:name=".CivilActivity" />
+        <activity android:name=".TpomsgActivity" />
+        <activity android:name=".TpoviewActivity" />
+        <activity android:name=".RecruitActivity" />
+        <activity android:name=".TporepresActivity" />
+        <activity android:name=".VirtualActivity" />
+        <activity android:name=".CalCourseActivity" />
+        <activity android:name=".FcompActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".Noticeboard" />
+        <activity android:name=".EditNotice" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".ChemActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miniproject.dypiemr.ChemActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#67c8ff"
+        android:gravity="center"
+        android:text="@string/nwelcome_to_department_of_chemical_engineering_n"
+        android:textColor="#293335"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ug_degree_course_offered"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1.67" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_e_chemical"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.23"
+            android:text="@string/course_duration"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.93"
+            android:text="@string/_4_years"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:text="@string/year_of_establishnment"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.78"
+            android:text="@string/_2012"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.08"
+            android:text="@string/ug_intake"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.01"
+            android:text="@string/_60"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/approved_by"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:text="@string/aicte_new_delhi"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="@string/affiliated_to"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.23"
+            android:text="@string/savitribai_phule_pune_university"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/n_t_tchemical_engineering_is_the_branch_of_engineering_that_applies_the_physical_sciences_e_g_chemistry_and_physics_and_or_life_sciences_e_g_biology_microbiology_and_biogeochemistry_together_with_mathematics_and_economics_to_processes_that_convert_raw_materials_or_chemicals_into_more_useful_or_valuable_forms_the_main_task_of_chemical_engineers_is_to_develop_economic_ways_of_using_materials_and_energy_a_chemical_engineer_applies_the_skills_of_chemistry_and_engineering_to_fundamental_problems_in_not_just_chemical_petrochemical_biochemical_and_materials_processing_industries_but_also_pharmaceuticals_medical_devices_and_drug_delivery_systems_semiconductor_manufacturing_nanoscale_technology_renewable_energy_environmental_control_and_many_many_more_today_the_field_of_chemical_engineering_is_a_diverse_one_covering_areas_from_biotechnology_and_nanotechnology_to_mineral_processing_a_chemical_engineer_may_be_involved_in_industry_or_university_research_where_they_are_tasked_in_designing_and_performing_experiments_to_create_new_and_better_ways_of_production_controlling_pollution_conserving_resources_and_making_these_processes_safer_they_may_be_involved_in_designing_and_constructing_plants_as_a_project_engineer_in_this_field_the_chemical_engineer_uses_their_knowledge_in_selecting_plant_equipment_and_the_optimum_method_of_production_to_minimize_costs_and_increase_profitability_after_its_construction_they_may_help_in_upgrading_its_equipment_they_may_also_be_involved_in_its_daily_operations"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</LinearLayout>
+</ScrollView>

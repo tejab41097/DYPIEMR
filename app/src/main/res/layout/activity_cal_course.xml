@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.miniproject.dypiemr.CalCourseActivity">
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:compactCalendarBackgroundColor="#ededed"
+        app:compactCalendarCurrentDayBackgroundColor="#0026ff"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#a70044ff"
+        app:compactCalendarMultiEventIndicatorColor="#00ffffff"
+        app:compactCalendarTextColor="#000000"
+        app:compactCalendarTextSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="#67c8ff"
+        android:layout_marginTop="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

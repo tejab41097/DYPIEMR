@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miniproject.dypiemr.HOME">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@mipmap/guest"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="336dp"
+        android:layout_above="@+id/visitors"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_above="@+id/ts"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignParentTop="false"
+        android:layout_alignStart="@+id/button15"
+        android:background="@mipmap/notice"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:id="@+id/ts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button15"
+        android:layout_alignEnd="@+id/button16"
+        android:layout_alignLeft="@+id/button16"
+        android:layout_alignRight="@+id/button16"
+        android:layout_alignStart="@+id/button16"
+        android:layout_marginBottom="51dp"
+        android:text="COLLEGE NOTICEBOARD"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/visitors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button15"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:layout_marginBottom="86dp"
+        android:text="COLLEGE VISITOR"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

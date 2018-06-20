@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.miniproject.dypiemr.DocFeeActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/documents"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="63dp"
+        android:background="@mipmap/doc"
+        android:gravity="bottom|center"
+        android:onClick="doc"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/fees"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@mipmap/fees"
+        android:gravity="bottom|center"
+        android:onClick="fee"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/textView139"
+        android:layout_alignLeft="@+id/documents"
+        android:layout_alignStart="@+id/documents" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/documents"
+        android:layout_centerHorizontal="true"
+        android:gravity="top|center"
+        android:text="@string/click_here_to_get_documentation_details"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fees"
+        android:layout_alignLeft="@+id/fees"
+        android:layout_alignRight="@+id/fees"
+        android:layout_alignStart="@+id/fees"
+        android:layout_below="@+id/fees"
+        android:gravity="top|center"
+        android:text="@string/click_here_to_get_fee_structure"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+</ScrollView>

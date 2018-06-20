@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.miniproject.dypiemr.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="29dp"
+            android:background="@mipmap/glance"
+            android:gravity="bottom|center"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@mipmap/vision"
+            android:gravity="bottom|center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_above="@+id/textView143"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@mipmap/message"
+            android:gravity="bottom|center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignLeft="@+id/textView142"
+            android:layout_alignStart="@+id/textView142" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_above="@+id/textView142"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@mipmap/governance"
+            android:gravity="bottom|center"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/about_us"
+            android:textColor="#ffffff"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:background="#67c8ff"/>
+
+        <TextView
+            android:id="@+id/textView141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button1"
+            android:layout_alignRight="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:gravity="top|center"
+            android:text="@string/institute_at_a_glance"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView142"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button4"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignRight="@+id/button4"
+            android:layout_alignStart="@+id/button4"
+            android:layout_alignTop="@+id/textView141"
+            android:gravity="top|center"
+            android:text="@string/governing_body"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView145"
+            android:layout_alignBottom="@+id/textView145"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignRight="@+id/button2"
+            android:layout_alignStart="@+id/button1"
+            android:gravity="top|center"
+            android:text="@string/vision_mission_and_objectives"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignRight="@+id/button3"
+            android:layout_alignStart="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:gravity="top|center"
+            android:text="@string/messages"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignLeft="@+id/textView142"
+            android:layout_alignStart="@+id/textView142"
+            android:background="#a3e130"
+            android:elevation="24dp"
+            android:gravity="center"
+            android:onClick="calender"
+            android:text="Event\nCalender"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView141"
+            android:layout_alignRight="@+id/textView141"
+            android:layout_below="@+id/textView141"
+            android:layout_marginTop="32dp"
+            android:background="#a3e130"
+            android:elevation="24dp"
+            android:gravity="center"
+            android:onClick="video"
+            android:text="Virtual\nTour"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</ScrollView>

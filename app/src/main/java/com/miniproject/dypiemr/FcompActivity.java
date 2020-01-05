@@ -39,12 +39,9 @@ public class FcompActivity extends AppCompatActivity implements AdapterView.OnIt
             throw new Error("Unable to create database");
         }
         try
-
         {
             myDbHelper.openDataBase();
-        } catch(
-                SQLException sqle)
-
+        } catch(SQLException sqle)
         {
             throw sqle;
         }
